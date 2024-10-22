@@ -5,7 +5,7 @@ name: 部署 VitePress 到 GitHub Pages
 on:
   # 当推送到 `main` 分支时触发。若使用 `master` 分支作为默认分支，请修改为 `master`。
   push:
-    branches: [main]
+    branches: [master]
 
   # 允许从 Actions 选项卡手动运行工作流
   workflow_dispatch:
